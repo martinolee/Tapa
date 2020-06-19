@@ -57,7 +57,7 @@ textField.addLeftPadding()
 ```
 |                           Original                           |                             Tapa                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![addLeftPaddingBefore](/Users/pro/Desktop/tistory/TapaAssets/addLeftPaddingBefore.png) | ![addLeftPaddingAfter](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyem61c5vj30ap0l4jsl.jpg) |
+| ![addLeftPaddingBefore](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyevt4m65j30ap0l4t9x.jpg) | ![addLeftPaddingAfter](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyem61c5vj30ap0l4jsl.jpg) |
 
 
 
