@@ -1,9 +1,6 @@
 # Tapa
 
-[![CI Status](https://img.shields.io/travis/wanderingfairy/Tapa.svg?style=flat)](https://travis-ci.org/wanderingfairy/Tapa)
-[![Version](https://img.shields.io/cocoapods/v/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
-[![License](https://img.shields.io/cocoapods/l/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
-[![Platform](https://img.shields.io/cocoapods/p/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
+[![Swift 5.2](https://img.shields.io/badge/swift-5.2-ED523F.svg?style=flat)](https://swift.org/download/)[![Version](https://img.shields.io/cocoapods/v/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![License](https://img.shields.io/cocoapods/l/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![Platform](https://img.shields.io/cocoapods/p/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
 
 ## Requirements
 
