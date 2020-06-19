@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Tapa_Example' do
+  pod 'Tapa', :path => '../'
+
+  target 'Tapa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
