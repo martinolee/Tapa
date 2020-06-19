@@ -1,0 +1,16 @@
+PODS:
+  - Tapa (0.1.0)
+
+DEPENDENCIES:
+  - Tapa (from `../`)
+
+EXTERNAL SOURCES:
+  Tapa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tapa: 9efb7330954aa6d45b8d0bc3e0e09707d0c24ce1
+
+PODFILE CHECKSUM: 2bc12e018d0aceb0a029a32a74aa123dcd84042a
+
+COCOAPODS: 1.8.4

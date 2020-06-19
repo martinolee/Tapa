@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BAB3661A1B34B87EB161CC0B1CE269 /* Pods-Tapa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBC6CB667DB8B693359A678E0962DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		41732BCFE2A978485DBD6F42517E41BE /* Pods-Tapa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */; };
+		6060176A6ABA9546B1792ADBC9407027 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */; };
+		6FD086D2043F251CF8BB717CF7151630 /* Pods-Tapa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E11350BCAAC075501D3A56D83D46D1 /* Pods-Tapa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */; };
+		A8475AFCA76854EAEBF450F336A6BB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C03871525C064540ABE6A845E25D6234 /* Tapa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */; };
+		D28FD4918077CCBB60DF57014F53DC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAEC836C8692F870FD1F73EFC5D23C9B /* Tapa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A99CAA4BEA78960DEDCB438A322BA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70C04140BA0D509895DD4B8B4F38852;
+			remoteInfo = Tapa;
+		};
+		3381B824548B7465A7D07BFAF95D5F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB75BFFC1A1E684F3E10226CD827D47C;
+			remoteInfo = "Pods-Tapa_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A109A2E30B997878B82980CF970816 /* Tapa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Tapa.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15334B89FBA0EFCB07F9EC45C6577F35 /* Pods-Tapa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tapa_Example-umbrella.h"; sourceTree = "<group>"; };
+		224739E2B5794EEB0F4CC98C317CB8D1 /* Pods-Tapa_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Tests-Info.plist"; sourceTree = "<group>"; };
+		2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tapa.xcconfig; sourceTree = "<group>"; };
+		2E88463FB0ACA1C438BCA77B83C2DAFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Tapa/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tapa_Tests.framework; path = "Pods-Tapa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tapa-dummy.m"; sourceTree = "<group>"; };
+		5A61D6EBD634E17277F670FAE9069097 /* Pods-Tapa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tapa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AA8652B92FCB8399E2AF26D8499B2EB /* Pods-Tapa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		611D59A1731014A881AAEA14FE63D17C /* Pods-Tapa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tapa_Tests.modulemap"; sourceTree = "<group>"; };
+		669203D9A1A08B9F7626790E878CE192 /* Pods-Tapa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		726BC00AD834F718DCA98BB8DE4328B1 /* Pods-Tapa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77AFB61610ABF77C5C3B10A71106D594 /* Pods-Tapa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tapa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-umbrella.h"; sourceTree = "<group>"; };
+		83C88A843B8B421B650ABE38323DD6EA /* Pods_Tapa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tapa_Example.framework; path = "Pods-Tapa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E1FCE641B1F9F728E333914766C6A8 /* Pods-Tapa_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Example-Info.plist"; sourceTree = "<group>"; };
+		8A202A3998395F3098B9B0872A411008 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E39E12F826F8B8D76D0B2401C7968C4 /* Pods-Tapa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98A18DB5E156A7C4916F71C5A7B7B8BF /* Tapa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tapa.modulemap; sourceTree = "<group>"; };
+		9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tapa_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tapa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD3F2CAD1EE83A8C17451663CA4AB822 /* Pods-Tapa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tapa.framework; path = Tapa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tapa_Example-dummy.m"; sourceTree = "<group>"; };
+		D1256C3EDB4A3E6405A16521410FDE00 /* Tapa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Tapa-Info.plist"; sourceTree = "<group>"; };
+		ED36021F8004DDAEEF814B009B78F878 /* Pods-Tapa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tapa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3E7FB24781545ACE74035D5E451139C /* Tapa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-prefix.pch"; sourceTree = "<group>"; };
+		F4783A4F403F976133D432D4D94EB9A9 /* Pods-Tapa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tapa_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F42F5A0D9C53C8033FEADE2F6288DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8475AFCA76854EAEBF450F336A6BB5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F53755FD5E57351FE0945E15EEC4C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC6CB667DB8B693359A678E0962DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E4D00D303DE0DDDB59A23C4430A21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FD4918077CCBB60DF57014F53DC9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0386E1685822F8B3A5DA4C275EBD8447 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F9205EAD00B3E8A2921ADD39B3B9234 /* Pods-Tapa_Example */,
+				DE9632CB571076D22BCFE139D8DD84DC /* Pods-Tapa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		103E1EF9F2423074918A305007FCF24A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A18DB5E156A7C4916F71C5A7B7B8BF /* Tapa.modulemap */,
+				2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */,
+				515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */,
+				D1256C3EDB4A3E6405A16521410FDE00 /* Tapa-Info.plist */,
+				F3E7FB24781545ACE74035D5E451139C /* Tapa-prefix.pch */,
+				7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Tapa";
+			sourceTree = "<group>";
+		};
+		3D040ED616F788B5A1EAC423C596C649 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43EB46CFA3C34C07676C4B7321030113 /* Tapa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		43EB46CFA3C34C07676C4B7321030113 /* Tapa */ = {
+			isa = PBXGroup;
+			children = (
+				379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */,
+				7FBCD9BE1FB23E9EFE8B53B1B861BA13 /* Pod */,
+				103E1EF9F2423074918A305007FCF24A /* Support Files */,
+			);
+			name = Tapa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F9205EAD00B3E8A2921ADD39B3B9234 /* Pods-Tapa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F4783A4F403F976133D432D4D94EB9A9 /* Pods-Tapa_Example.modulemap */,
+				ED36021F8004DDAEEF814B009B78F878 /* Pods-Tapa_Example-acknowledgements.markdown */,
+				8E39E12F826F8B8D76D0B2401C7968C4 /* Pods-Tapa_Example-acknowledgements.plist */,
+				CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */,
+				77AFB61610ABF77C5C3B10A71106D594 /* Pods-Tapa_Example-frameworks.sh */,
+				87E1FCE641B1F9F728E333914766C6A8 /* Pods-Tapa_Example-Info.plist */,
+				2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */,
+				726BC00AD834F718DCA98BB8DE4328B1 /* Pods-Tapa_Example.debug.xcconfig */,
+				669203D9A1A08B9F7626790E878CE192 /* Pods-Tapa_Example.release.xcconfig */,
+			);
+			name = "Pods-Tapa_Example";
+			path = "Target Support Files/Pods-Tapa_Example";
+			sourceTree = "<group>";
+		};
+		70A833F29470D4C7B4B931BBFBA131C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C88A843B8B421B650ABE38323DD6EA /* Pods_Tapa_Example.framework */,
+				42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */,
+				C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FBCD9BE1FB23E9EFE8B53B1B861BA13 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A202A3998395F3098B9B0872A411008 /* LICENSE */,
+				2E88463FB0ACA1C438BCA77B83C2DAFC /* README.md */,
+				04A109A2E30B997878B82980CF970816 /* Tapa.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D040ED616F788B5A1EAC423C596C649 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				70A833F29470D4C7B4B931BBFBA131C7 /* Products */,
+				0386E1685822F8B3A5DA4C275EBD8447 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9632CB571076D22BCFE139D8DD84DC /* Pods-Tapa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				611D59A1731014A881AAEA14FE63D17C /* Pods-Tapa_Tests.modulemap */,
+				5A61D6EBD634E17277F670FAE9069097 /* Pods-Tapa_Tests-acknowledgements.markdown */,
+				5AA8652B92FCB8399E2AF26D8499B2EB /* Pods-Tapa_Tests-acknowledgements.plist */,
+				9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */,
+				224739E2B5794EEB0F4CC98C317CB8D1 /* Pods-Tapa_Tests-Info.plist */,
+				9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */,
+				15334B89FBA0EFCB07F9EC45C6577F35 /* Pods-Tapa_Tests.debug.xcconfig */,
+				AD3F2CAD1EE83A8C17451663CA4AB822 /* Pods-Tapa_Tests.release.xcconfig */,
+			);
+			name = "Pods-Tapa_Tests";
+			path = "Target Support Files/Pods-Tapa_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032A087209A552FC6FD6EB2F22F7084F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC836C8692F870FD1F73EFC5D23C9B /* Tapa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269F56FC71FCA633993EFE5237D9B771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BAB3661A1B34B87EB161CC0B1CE269 /* Pods-Tapa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F4FD6B32AF8D38535007A7DEE4B9EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD086D2043F251CF8BB717CF7151630 /* Pods-Tapa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ACD048CB70C41F1F256E3D663D42E2E /* Pods-Tapa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A375A6912E5D0274C45CF1D0E63625 /* Build configuration list for PBXNativeTarget "Pods-Tapa_Tests" */;
+			buildPhases = (
+				269F56FC71FCA633993EFE5237D9B771 /* Headers */,
+				878F563E4D4AA3EA714E17988A279D7B /* Sources */,
+				C1E4D00D303DE0DDDB59A23C4430A21C /* Frameworks */,
+				F2418F2AB419B10591005F25E2CCE8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62277DF7FD5C181994A4DAEB70C31F0F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tapa_Tests";
+			productName = "Pods-Tapa_Tests";
+			productReference = 42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB75BFFC1A1E684F3E10226CD827D47C /* Pods-Tapa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D493F1716D10E3945BD149C5E3274B /* Build configuration list for PBXNativeTarget "Pods-Tapa_Example" */;
+			buildPhases = (
+				69F4FD6B32AF8D38535007A7DEE4B9EF /* Headers */,
+				DF8F7A9E5BAF909E63852CF3E12EF804 /* Sources */,
+				9F53755FD5E57351FE0945E15EEC4C81 /* Frameworks */,
+				4496D7536DDC7C92BB51C740AE08F327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4738E57BA1BF2FA82B02E0F2825123C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tapa_Example";
+			productName = "Pods-Tapa_Example";
+			productReference = 83C88A843B8B421B650ABE38323DD6EA /* Pods_Tapa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F70C04140BA0D509895DD4B8B4F38852 /* Tapa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE4B84CF5109669AB2DE21EA5D4F8EF /* Build configuration list for PBXNativeTarget "Tapa" */;
+			buildPhases = (
+				032A087209A552FC6FD6EB2F22F7084F /* Headers */,
+				BB31412A3CE6FDAD0921DCA6DED26A5C /* Sources */,
+				8F42F5A0D9C53C8033FEADE2F6288DB9 /* Frameworks */,
+				662008CC28327B0BFA59A09FE1495704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tapa;
+			productName = Tapa;
+			productReference = C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 70A833F29470D4C7B4B931BBFBA131C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB75BFFC1A1E684F3E10226CD827D47C /* Pods-Tapa_Example */,
+				4ACD048CB70C41F1F256E3D663D42E2E /* Pods-Tapa_Tests */,
+				F70C04140BA0D509895DD4B8B4F38852 /* Tapa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4496D7536DDC7C92BB51C740AE08F327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662008CC28327B0BFA59A09FE1495704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2418F2AB419B10591005F25E2CCE8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878F563E4D4AA3EA714E17988A279D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E11350BCAAC075501D3A56D83D46D1 /* Pods-Tapa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB31412A3CE6FDAD0921DCA6DED26A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6060176A6ABA9546B1792ADBC9407027 /* ReplaceMe.swift in Sources */,
+				C03871525C064540ABE6A845E25D6234 /* Tapa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F7A9E5BAF909E63852CF3E12EF804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41732BCFE2A978485DBD6F42517E41BE /* Pods-Tapa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4738E57BA1BF2FA82B02E0F2825123C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tapa;
+			target = F70C04140BA0D509895DD4B8B4F38852 /* Tapa */;
+			targetProxy = 0A99CAA4BEA78960DEDCB438A322BA40 /* PBXContainerItemProxy */;
+		};
+		62277DF7FD5C181994A4DAEB70C31F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tapa_Example";
+			target = AB75BFFC1A1E684F3E10226CD827D47C /* Pods-Tapa_Example */;
+			targetProxy = 3381B824548B7465A7D07BFAF95D5F7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00F19FA6B71416852D27CA24DDD73C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Tapa/Tapa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tapa/Tapa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tapa/Tapa.modulemap";
+				PRODUCT_MODULE_NAME = Tapa;
+				PRODUCT_NAME = Tapa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		150AE6D19BD2D137F945716F352EF2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15334B89FBA0EFCB07F9EC45C6577F35 /* Pods-Tapa_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5105E9C3D1496C87FB24801DD00F6B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3F2CAD1EE83A8C17451663CA4AB822 /* Pods-Tapa_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC1C64FBC26AE5CB714B64A64F818A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726BC00AD834F718DCA98BB8DE4328B1 /* Pods-Tapa_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C88ABA572BFDD53314A5B6AAB842E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Tapa/Tapa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tapa/Tapa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tapa/Tapa.modulemap";
+				PRODUCT_MODULE_NAME = Tapa;
+				PRODUCT_NAME = Tapa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8C3DD443C5B1EC72F23957CB5090A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669203D9A1A08B9F7626790E878CE192 /* Pods-Tapa_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE4B84CF5109669AB2DE21EA5D4F8EF /* Build configuration list for PBXNativeTarget "Tapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F19FA6B71416852D27CA24DDD73C36 /* Debug */,
+				C88ABA572BFDD53314A5B6AAB842E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D493F1716D10E3945BD149C5E3274B /* Build configuration list for PBXNativeTarget "Pods-Tapa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1C64FBC26AE5CB714B64A64F818A3E /* Debug */,
+				F8C3DD443C5B1EC72F23957CB5090A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A375A6912E5D0274C45CF1D0E63625 /* Build configuration list for PBXNativeTarget "Pods-Tapa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150AE6D19BD2D137F945716F352EF2A5 /* Debug */,
+				5105E9C3D1496C87FB24801DD00F6B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Tapa_Example {
+  umbrella header "Pods-Tapa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

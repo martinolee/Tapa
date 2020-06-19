@@ -1,0 +1,22 @@
+{
+  "name": "Tapa",
+  "version": "0.1.0",
+  "summary": "A short description of Tapa.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanderingfairy/Tapa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanderingfairy": "gusauddml@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wanderingfairy/Tapa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Tapa/Classes/**/*"
+}
