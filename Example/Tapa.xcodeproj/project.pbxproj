@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0A0E6A96D79EAEDAF041C1F4 /* Pods-Tapa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapa_Tests.release.xcconfig"; path = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1385BAA714E5EECD4E876C0E /* Pods-Tapa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapa_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Tapa_Tests/Pods-Tapa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34FF01F91F7FF6B2234F26F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		34FF01F91F7FF6B2234F26F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4CD4B721353716D370D91E39 /* Pods_Tapa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Tapa_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapa_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A8625C784102C62AA9DA876 /* Pods-Tapa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapa_Example.debug.xcconfig"; path = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A39063D3E2473018B1298920 /* Tapa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Tapa.podspec; path = ../Tapa.podspec; sourceTree = "<group>"; };
+		A39063D3E2473018B1298920 /* Tapa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tapa.podspec; path = ../Tapa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF66B08FB596C8CC88394610 /* Pods-Tapa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapa_Example.release.xcconfig"; path = "Target Support Files/Pods-Tapa_Example/Pods-Tapa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB0A0E8526491D29EE058042 /* Pods_Tapa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBE9AA5E115BD8A537231E3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DBE9AA5E115BD8A537231E3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				1385BAA714E5EECD4E876C0E /* Pods-Tapa_Tests.debug.xcconfig */,
 				0A0E6A96D79EAEDAF041C1F4 /* Pods-Tapa_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

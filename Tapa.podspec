@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Tapa'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Tapa.'
+  s.summary          = 'Make View with Tapa.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'Convenient extensions associated with UI'
                        DESC
 
   s.homepage         = 'https://github.com/wanderingfairy/Tapa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wanderingfairy' => 'gusauddml@gmail.com' }
+  s.author           = { 'wanderingfairy' => 'justice_@kakao.com' }
   s.source           = { :git => 'https://github.com/wanderingfairy/Tapa.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Tapa/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'Tapa' => ['Tapa/Assets/*.png']
