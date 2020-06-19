@@ -1,6 +1,10 @@
+[![Swift 5.2](https://img.shields.io/badge/swift-5.2-ED523F.svg?style=flat)](https://swift.org/download/)[![Version](https://img.shields.io/cocoapods/v/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![License](https://img.shields.io/cocoapods/l/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![Platform](https://img.shields.io/cocoapods/p/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
+
 # Tapa
 
-[![Swift 5.2](https://img.shields.io/badge/swift-5.2-ED523F.svg?style=flat)](https://swift.org/download/)[![Version](https://img.shields.io/cocoapods/v/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![License](https://img.shields.io/cocoapods/l/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)[![Platform](https://img.shields.io/cocoapods/p/Tapa.svg?style=flat)](https://cocoapods.org/pods/Tapa)
+Tapa helps to make it easier to implement when creating views.
+
+
 
 ## Requirements
 
@@ -11,6 +15,8 @@
 | language | version |
 | -------- | ------- |
 | Swift    | >= 5.0  |
+
+
 
 ## Installation
 

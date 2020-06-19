@@ -13,17 +13,6 @@ extension UIView {
        mask.path = path.cgPath
        self.layer.mask = mask
   }
-  
-  //Find Parent ViewController
-  public var viewController: UIViewController? {
-    if let vc = self.next as? UIViewController {
-      return vc
-    } else if let superview = self.superview {
-      return superview.viewController
-    } else {
-      return nil
-    }
-  }
 }
 
 extension UITextField {
