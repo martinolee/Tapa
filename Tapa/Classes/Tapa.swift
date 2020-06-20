@@ -16,10 +16,10 @@ extension UIView {
   
   //Make the corners of the UIView round.
   public func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
-       let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
-       let mask = CAShapeLayer()
-       mask.path = path.cgPath
-       self.layer.mask = mask
+    let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+    let mask = CAShapeLayer()
+    mask.path = path.cgPath
+    self.layer.mask = mask
   }
   
   public func makeShadow(color: CGColor = UIColor.black.cgColor, opacity: Float = 0.7, whichCorner: ShadowCorner = .rightBottom, offsetWidth: CGFloat = 3, offsetHeight: CGFloat = 3, radius: CGFloat = 5) {
