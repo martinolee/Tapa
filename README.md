@@ -32,7 +32,7 @@ pod 'Tapa'
 
 Tapa supported to install via Swift Package Manager. You can add Gedatsu on Xcode GUI. See [document](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
-( ver 0.1.6  and later)
+( ver 0.1.6  and later) and [I prepared a manual just in case you can't install it.](https://github.com/wanderingfairy/Tapa/blob/master/HowToInstallTapaWithSPM.md)
 
 ## Usage
 
