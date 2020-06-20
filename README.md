@@ -110,7 +110,7 @@ Or you can use all parameters
 orangeBox.makeShadow(color: UIColor.red.cgColor, opacity: 0.8, whichCorner: .rightBottom, offsetWidth: 10, offsetHeight: 10, radius: 10)
 ```
 
-![스크린샷 2020-06-20 오후 1.24.37](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyn25jduhj30at0c3gmf.jpg)
+![스크린샷 2020-06-20 오후 1.28.22](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyn630hq9j30ad0lhq4g.jpg)
 
 
 
