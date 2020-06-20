@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Tapa'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Make View with Tapa.'
   s.description      = 'Convenient extensions associated with UI'
   s.homepage         = 'https://github.com/wanderingfairy/Tapa'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Tapa/Classes/**/*'
+  s.source_files = 'Sources/Tapa/Classes/**/*'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {
