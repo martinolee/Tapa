@@ -42,7 +42,7 @@ Tapa will start when after call `import Tapa`.
 
 ## example
 
-#### Add multiple views easily
+#### - Add multiple views easily
 ```swift
   public func addSubviews(views: [UIView]) {
     views.forEach({ addSubview($0) })
@@ -54,7 +54,9 @@ Tapa will start when after call `import Tapa`.
 
 
 
-#### Easily add left and right insets of UITextField
+
+
+#### - Easily add left and right insets of UITextField
 ```swift
 //in anywhere
 
@@ -68,7 +70,9 @@ textField.addLeftPadding()
 
 
 
-#### Easily set up each corner of the view.
+
+
+#### - Easily set up each corner of the view.
 
 ```swift
   override func viewWillLayoutSubviews() {
@@ -82,6 +86,7 @@ textField.addLeftPadding()
 | .topRight, .topLeft |.topLeft, bottomRight|
 | :--: | :--: |
 | ![topleft-topright-50](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyeu0lej9j30ap0l4abb.jpg) | ![topright-bottomleft-50](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyeu529qxj30ap0l475o.jpg) |
+
 
 
 ## Author
