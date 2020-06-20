@@ -10,7 +10,7 @@
 		05BAB3661A1B34B87EB161CC0B1CE269 /* Pods-Tapa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DBC6CB667DB8B693359A678E0962DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		41732BCFE2A978485DBD6F42517E41BE /* Pods-Tapa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */; };
-		6060176A6ABA9546B1792ADBC9407027 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */; };
+		6060176A6ABA9546B1792ADBC9407027 /* Tapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E61B839815FF2785999A414035FD9 /* Tapa.swift */; };
 		6FD086D2043F251CF8BB717CF7151630 /* Pods-Tapa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0E11350BCAAC075501D3A56D83D46D1 /* Pods-Tapa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */; };
 		A8475AFCA76854EAEBF450F336A6BB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -44,7 +44,7 @@
 		2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tapa.xcconfig; sourceTree = "<group>"; };
 		2E88463FB0ACA1C438BCA77B83C2DAFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Sources/Tapa/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		379E61B839815FF2785999A414035FD9 /* Tapa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tapa.swift; path = Sources/Tapa/Classes/Tapa.swift; sourceTree = "<group>"; };
 		42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tapa-dummy.m"; sourceTree = "<group>"; };
 		5A61D6EBD634E17277F670FAE9069097 /* Pods-Tapa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tapa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		43EB46CFA3C34C07676C4B7321030113 /* Tapa */ = {
 			isa = PBXGroup;
 			children = (
-				379E61B839815FF2785999A414035FD9 /* ReplaceMe.swift */,
+				379E61B839815FF2785999A414035FD9 /* Tapa.swift */,
 				7FBCD9BE1FB23E9EFE8B53B1B861BA13 /* Pod */,
 				103E1EF9F2423074918A305007FCF24A /* Support Files */,
 			);
@@ -373,7 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6060176A6ABA9546B1792ADBC9407027 /* ReplaceMe.swift in Sources */,
+				6060176A6ABA9546B1792ADBC9407027 /* Tapa.swift in Sources */,
 				C03871525C064540ABE6A845E25D6234 /* Tapa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
