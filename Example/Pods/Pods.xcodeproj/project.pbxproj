@@ -10,13 +10,13 @@
 		05BAB3661A1B34B87EB161CC0B1CE269 /* Pods-Tapa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DBC6CB667DB8B693359A678E0962DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		41732BCFE2A978485DBD6F42517E41BE /* Pods-Tapa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */; };
-		6060176A6ABA9546B1792ADBC9407027 /* Tapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E61B839815FF2785999A414035FD9 /* Tapa.swift */; };
+		49211C6FCDF92D523BD2026BF9ADF2B1 /* Tapa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 238A12A88A9FB62D6117F3CD69FAEA1B /* Tapa-dummy.m */; };
+		5580638CE0FA326164773470D1CF5B44 /* Tapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE762610E80A9232F4313804C603F27 /* Tapa.swift */; };
 		6FD086D2043F251CF8BB717CF7151630 /* Pods-Tapa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0E11350BCAAC075501D3A56D83D46D1 /* Pods-Tapa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */; };
 		A8475AFCA76854EAEBF450F336A6BB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C03871525C064540ABE6A845E25D6234 /* Tapa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */; };
 		D28FD4918077CCBB60DF57014F53DC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FAEC836C8692F870FD1F73EFC5D23C9B /* Tapa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEC836C8692F870FD1F73EFC5D23C9B /* Tapa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 362768125CD3F9FCD3FEAB8A40303DE7 /* Tapa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A109A2E30B997878B82980CF970816 /* Tapa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Tapa.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CA9890346E32C4B1F308C8074775D5C /* Tapa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Tapa-Info.plist"; sourceTree = "<group>"; };
 		15334B89FBA0EFCB07F9EC45C6577F35 /* Pods-Tapa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D35958A96F6603762285C64AF716134 /* Tapa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Tapa.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2096AF13103548193424E4033E3DEB78 /* Pods-Tapa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tapa_Example-umbrella.h"; sourceTree = "<group>"; };
 		224739E2B5794EEB0F4CC98C317CB8D1 /* Pods-Tapa_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Tests-Info.plist"; sourceTree = "<group>"; };
-		2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tapa.xcconfig; sourceTree = "<group>"; };
-		2E88463FB0ACA1C438BCA77B83C2DAFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		238A12A88A9FB62D6117F3CD69FAEA1B /* Tapa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tapa-dummy.m"; sourceTree = "<group>"; };
+		2F4CA363CBC16674D1333FBC36886B42 /* Tapa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tapa.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		379E61B839815FF2785999A414035FD9 /* Tapa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tapa.swift; path = Tapa/Classes/Tapa.swift; sourceTree = "<group>"; };
-		42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tapa-dummy.m"; sourceTree = "<group>"; };
+		362768125CD3F9FCD3FEAB8A40303DE7 /* Tapa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-umbrella.h"; sourceTree = "<group>"; };
+		42F90778D8E43ABAF68365D23182927D /* Pods_Tapa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tapa_Tests.framework; path = "Pods-Tapa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD92A094E68D1D1719A69DDE4A1247E /* Tapa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-prefix.pch"; sourceTree = "<group>"; };
 		5A61D6EBD634E17277F670FAE9069097 /* Pods-Tapa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tapa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AA8652B92FCB8399E2AF26D8499B2EB /* Pods-Tapa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		611D59A1731014A881AAEA14FE63D17C /* Pods-Tapa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tapa_Tests.modulemap"; sourceTree = "<group>"; };
 		669203D9A1A08B9F7626790E878CE192 /* Pods-Tapa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		726BC00AD834F718DCA98BB8DE4328B1 /* Pods-Tapa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		77AFB61610ABF77C5C3B10A71106D594 /* Pods-Tapa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tapa_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-umbrella.h"; sourceTree = "<group>"; };
-		83C88A843B8B421B650ABE38323DD6EA /* Pods_Tapa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C88A843B8B421B650ABE38323DD6EA /* Pods_Tapa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tapa_Example.framework; path = "Pods-Tapa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E1FCE641B1F9F728E333914766C6A8 /* Pods-Tapa_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Example-Info.plist"; sourceTree = "<group>"; };
-		8A202A3998395F3098B9B0872A411008 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8E39E12F826F8B8D76D0B2401C7968C4 /* Pods-Tapa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tapa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		98A18DB5E156A7C4916F71C5A7B7B8BF /* Tapa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tapa.modulemap; sourceTree = "<group>"; };
 		9A5BB3C7B092FAE8FA2EF2B66E383F03 /* Pods-Tapa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tapa_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E657A6C4FE43DD7BB0B536301799AAE /* Pods-Tapa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tapa_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD3F2CAD1EE83A8C17451663CA4AB822 /* Pods-Tapa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tapa_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tapa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tapa.framework; path = Tapa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3075E50C77AAD24917351D4C044A95E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8B90D26A95F48FF206B111DABC5EA56 /* Tapa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tapa.modulemap; sourceTree = "<group>"; };
 		CC20103462B4D5C6A454C62CE5BACBBA /* Pods-Tapa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tapa_Example-dummy.m"; sourceTree = "<group>"; };
-		D1256C3EDB4A3E6405A16521410FDE00 /* Tapa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Tapa-Info.plist"; sourceTree = "<group>"; };
+		D09B96E0E7EE148ED53277AC35AFF669 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DCE762610E80A9232F4313804C603F27 /* Tapa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tapa.swift; path = Tapa/Classes/Tapa.swift; sourceTree = "<group>"; };
 		ED36021F8004DDAEEF814B009B78F878 /* Pods-Tapa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tapa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3E7FB24781545ACE74035D5E451139C /* Tapa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tapa-prefix.pch"; sourceTree = "<group>"; };
 		F4783A4F403F976133D432D4D94EB9A9 /* Pods-Tapa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tapa_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,34 +108,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		103E1EF9F2423074918A305007FCF24A /* Support Files */ = {
+		28586EE16D77D728624BD03E36092095 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				98A18DB5E156A7C4916F71C5A7B7B8BF /* Tapa.modulemap */,
-				2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */,
-				515A5DB292E2CBD9F9D58DE3B08885B1 /* Tapa-dummy.m */,
-				D1256C3EDB4A3E6405A16521410FDE00 /* Tapa-Info.plist */,
-				F3E7FB24781545ACE74035D5E451139C /* Tapa-prefix.pch */,
-				7B8EED1AEB21D33C805D1E8EEDCD61A0 /* Tapa-umbrella.h */,
+				D09B96E0E7EE148ED53277AC35AFF669 /* LICENSE */,
+				C3075E50C77AAD24917351D4C044A95E /* README.md */,
+				1D35958A96F6603762285C64AF716134 /* Tapa.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Tapa";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3D040ED616F788B5A1EAC423C596C649 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43EB46CFA3C34C07676C4B7321030113 /* Tapa */,
+				4A3A1A8B050DB51037A57D82301F2B03 /* Tapa */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		43EB46CFA3C34C07676C4B7321030113 /* Tapa */ = {
+		4A3A1A8B050DB51037A57D82301F2B03 /* Tapa */ = {
 			isa = PBXGroup;
 			children = (
-				379E61B839815FF2785999A414035FD9 /* Tapa.swift */,
-				7FBCD9BE1FB23E9EFE8B53B1B861BA13 /* Pod */,
-				103E1EF9F2423074918A305007FCF24A /* Support Files */,
+				DCE762610E80A9232F4313804C603F27 /* Tapa.swift */,
+				28586EE16D77D728624BD03E36092095 /* Pod */,
+				F64A90B9E55F8F91E1F0370B7A66F243 /* Support Files */,
 			);
 			name = Tapa;
 			path = ../..;
@@ -166,16 +162,6 @@
 				C0FC5D39AEC4F48F053B3152493891DE /* Tapa.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7FBCD9BE1FB23E9EFE8B53B1B861BA13 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8A202A3998395F3098B9B0872A411008 /* LICENSE */,
-				2E88463FB0ACA1C438BCA77B83C2DAFC /* README.md */,
-				04A109A2E30B997878B82980CF970816 /* Tapa.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -219,6 +205,20 @@
 			);
 			name = "Pods-Tapa_Tests";
 			path = "Target Support Files/Pods-Tapa_Tests";
+			sourceTree = "<group>";
+		};
+		F64A90B9E55F8F91E1F0370B7A66F243 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8B90D26A95F48FF206B111DABC5EA56 /* Tapa.modulemap */,
+				2F4CA363CBC16674D1333FBC36886B42 /* Tapa.xcconfig */,
+				238A12A88A9FB62D6117F3CD69FAEA1B /* Tapa-dummy.m */,
+				0CA9890346E32C4B1F308C8074775D5C /* Tapa-Info.plist */,
+				4BD92A094E68D1D1719A69DDE4A1247E /* Tapa-prefix.pch */,
+				362768125CD3F9FCD3FEAB8A40303DE7 /* Tapa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Tapa";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +294,7 @@
 			buildConfigurationList = 3EE4B84CF5109669AB2DE21EA5D4F8EF /* Build configuration list for PBXNativeTarget "Tapa" */;
 			buildPhases = (
 				032A087209A552FC6FD6EB2F22F7084F /* Headers */,
-				BB31412A3CE6FDAD0921DCA6DED26A5C /* Sources */,
+				06A7B89CE03311259E2D4F970FD3E19E /* Sources */,
 				8F42F5A0D9C53C8033FEADE2F6288DB9 /* Frameworks */,
 				662008CC28327B0BFA59A09FE1495704 /* Resources */,
 			);
@@ -361,20 +361,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		06A7B89CE03311259E2D4F970FD3E19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49211C6FCDF92D523BD2026BF9ADF2B1 /* Tapa-dummy.m in Sources */,
+				5580638CE0FA326164773470D1CF5B44 /* Tapa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878F563E4D4AA3EA714E17988A279D7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A0E11350BCAAC075501D3A56D83D46D1 /* Pods-Tapa_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB31412A3CE6FDAD0921DCA6DED26A5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6060176A6ABA9546B1792ADBC9407027 /* Tapa.swift in Sources */,
-				C03871525C064540ABE6A845E25D6234 /* Tapa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,37 +404,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00F19FA6B71416852D27CA24DDD73C36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Tapa/Tapa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Tapa/Tapa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Tapa/Tapa.modulemap";
-				PRODUCT_MODULE_NAME = Tapa;
-				PRODUCT_NAME = Tapa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		150AE6D19BD2D137F945716F352EF2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15334B89FBA0EFCB07F9EC45C6577F35 /* Pods-Tapa_Tests.debug.xcconfig */;
@@ -502,6 +471,39 @@
 			};
 			name = Release;
 		};
+		9138C1CFCBE389E337A2AF5DDE0709BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4CA363CBC16674D1333FBC36886B42 /* Tapa.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Tapa/Tapa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tapa/Tapa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tapa/Tapa.modulemap";
+				PRODUCT_MODULE_NAME = Tapa;
+				PRODUCT_NAME = Tapa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,7 +557,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -658,10 +661,11 @@
 			};
 			name = Debug;
 		};
-		C88ABA572BFDD53314A5B6AAB842E9A7 /* Release */ = {
+		C94D2DD9F651CB5CE325B3FEF78D6F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B14208A2CB52C549F4D1FD85481AB7C /* Tapa.xcconfig */;
+			baseConfigurationReference = 2F4CA363CBC16674D1333FBC36886B42 /* Tapa.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -674,7 +678,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Tapa/Tapa-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Tapa/Tapa-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Tapa/Tapa.modulemap";
 				PRODUCT_MODULE_NAME = Tapa;
@@ -682,13 +686,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F8C3DD443C5B1EC72F23957CB5090A1B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -730,8 +733,8 @@
 		3EE4B84CF5109669AB2DE21EA5D4F8EF /* Build configuration list for PBXNativeTarget "Tapa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00F19FA6B71416852D27CA24DDD73C36 /* Debug */,
-				C88ABA572BFDD53314A5B6AAB842E9A7 /* Release */,
+				C94D2DD9F651CB5CE325B3FEF78D6F7D /* Debug */,
+				9138C1CFCBE389E337A2AF5DDE0709BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
