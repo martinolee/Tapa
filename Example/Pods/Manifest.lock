@@ -1,5 +1,5 @@
 PODS:
-  - Tapa (0.1.0)
+  - Tapa (0.3.1)
 
 DEPENDENCIES:
   - Tapa (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Tapa: 9efb7330954aa6d45b8d0bc3e0e09707d0c24ce1
+  Tapa: d5ee186a83e515004df3a0cde434e0283d02b1f9
 
 PODFILE CHECKSUM: 2bc12e018d0aceb0a029a32a74aa123dcd84042a
 
