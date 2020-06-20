@@ -22,6 +22,7 @@ extension UIView {
        self.layer.mask = mask
   }
   
+  //makeShadow.
   public func makeShadow(color: CGColor = UIColor.black.cgColor, opacity: Float = 0.7, whichCorner: ShadowCorner = .rightBottom, offsetWidth: CGFloat = 3, offsetHeight: CGFloat = 3, radius: CGFloat = 5) {
     
     self.layer.masksToBounds = false
