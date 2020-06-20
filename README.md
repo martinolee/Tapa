@@ -82,6 +82,38 @@ textField.addLeftPadding()
 | ![topleft-topright-50](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyeu0lej9j30ap0l4abb.jpg) | ![topright-bottomleft-50](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyeu529qxj30ap0l475o.jpg) |
 
 
+
+####  Put a shadow on each of the four corners.
+
+```swift
+public enum ShadowCorner {
+  case leftTop
+  case leftBottom
+  case rightTop
+  case rightBottom
+}
+```
+
+![스크린샷 2020-06-20 오후 1.16.23](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfymtlo1gkj30tk0g3jvs.jpg)
+
+
+
+```swift
+     orangeBox.makeShadow(whichCorner: .rightBottom)
+```
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gfymv13dn2j30ak0l4gn3.jpg" alt="스크린샷 2020-06-20 오후 1.17.44" style="zoom:67%;" />
+
+Or you can use all parameters
+
+```swift
+orangeBox.makeShadow(color: UIColor.red.cgColor, opacity: 0.8, whichCorner: .rightBottom, offsetWidth: 10, offsetHeight: 10, radius: 10)
+```
+
+![스크린샷 2020-06-20 오후 1.24.37](https://tva1.sinaimg.cn/large/007S8ZIlgy1gfyn25jduhj30at0c3gmf.jpg)
+
+
+
 ## Author
 
 wanderingfairy, justice_@kakao.com
