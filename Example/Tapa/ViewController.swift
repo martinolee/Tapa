@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Tapa
 
 class ViewController: UIViewController {
 
