@@ -1,5 +1,13 @@
 import UIKit
+
 //Hello
+public enum ShadowCorner {
+  case leftTop
+  case leftBottom
+  case rightTop
+  case rightBottom
+}
+
 extension UIView {
   //addSubview multiple UIView at a time
   public func addSubviews(views: [UIView]) {
@@ -12,6 +20,28 @@ extension UIView {
        let mask = CAShapeLayer()
        mask.path = path.cgPath
        self.layer.mask = mask
+  }
+  
+  public func makeShadow(color: CGColor = UIColor.black.cgColor, opacity: Float = 0.7, whichCorner: ShadowCorner = .rightBottom, offsetWidth: CGFloat = 3, offsetHeight: CGFloat = 3, radius: CGFloat = 5) {
+    
+    self.layer.masksToBounds = false
+    self.layer.shadowColor = color
+    self.layer.shadowOpacity = opacity
+    
+    switch whichCorner {
+    case .leftBottom:
+      self.layer.shadowOffset = CGSize(width: -offsetWidth, height: offsetHeight)
+    case .leftTop:
+      self.layer.shadowOffset = CGSize(width: -offsetWidth, height: -offsetHeight)
+    case .rightTop:
+      self.layer.shadowOffset = CGSize(width: offsetWidth, height: -offsetHeight)
+    case .rightBottom:
+      self.layer.shadowOffset = CGSize(width: offsetWidth, height: offsetHeight)
+    }
+    
+    self.layer.shadowRadius = radius
+    self.layer.shouldRasterize = true
+    self.layer.rasterizationScale = UIScreen.main.scale
   }
 }
 
