@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Tapa'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = 'Make View with Tapa.'
   s.description      = 'Convenient extensions associated with UI'
   s.homepage         = 'https://github.com/wanderingfairy/Tapa'
