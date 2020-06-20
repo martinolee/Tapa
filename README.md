@@ -2,7 +2,7 @@
 
 # Tapa
 
-Tapa helps to make it easier to implement when creating views.
+Tapa makes it easy to implement annoying views.
 
 
 
@@ -28,7 +28,11 @@ Add the line below to Podfile and to exec `$ pod install`.
 pod 'Tapa'
 ```
 
+### Swift Package Manager(SPM)
 
+Tapa supported to install via Swift Package Manager. You can add Gedatsu on Xcode GUI. See [document](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
+
+( ver 0.1.6  and later)
 
 ## Usage
 
